@@ -60,7 +60,7 @@ No additional installation is required for a basic static portfolio website.
 
 **Namana A**
 
-Computer Science and Engineering Student  
+Information Science and Engineering Student  
 Global Academy of Technology  
 Affiliated with Visvesvaraya Technological University (VTU)
 
