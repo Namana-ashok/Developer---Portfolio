@@ -1,0 +1,202 @@
+
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: navy;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: #2563eb;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Make images fit their containers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive styles for phones */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 12px;
+    }
+}
+
+#helloButton {
+    background-color: navy;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#helloButton:hover {
+    background-color: royalblue;
+}
+ #calculator {
+        text-align: center;
+        padding: 25px;
+        margin: 20px auto;
+        max-width: 400px;
+        background-color: #f0f4f8;
+        border-radius: 10px;
+    }
+
+    #calculator input {
+        padding: 10px;
+        margin: 5px;
+        width: 80%;
+    }
+
+    #calculator button {
+        padding: 10px 15px;
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+/* Common styling for all sections */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+.card h2,
+section h2 {
+    color: #3730a3;
+    margin-bottom: 15px;
+}
+
+/* Education section */
+#education p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Learning goals section */
+#goals ul {
+    padding-left: 25px;
+}
+
+#goals li {
+    margin-bottom: 10px;
+}
+
+/* Interactive button */
+#goalButton {
+    background-color: #4338ca;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#goalButton:hover {
+    background-color: #312e81;
+}
+
+/* Message displayed after clicking the button */
+#goalMessage {
+    color: #4338ca;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Technical skills tags */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #e0e7ff;
+    color: #312e81;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Project cards */
+.project {
+    background-color: #f8fafc;
+    border-left: 4px solid #6366f1;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.project h3 {
+    color: #1e3a8a;
+    margin-top: 0;
+}
+
+.project p {
+    line-height: 1.6;
+}
+
+/* Extra My Skills section */
+section:not(.card) {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section:not(.card) li {
+    margin-bottom: 8px;
+}
+
+/* Mobile-friendly styling */
+@media (max-width: 600px) {
+    .card,
+    section:not(.card) {
+        padding: 18px;
+    }
+
+    .skills {
+        gap: 8px;
+    }
+}
