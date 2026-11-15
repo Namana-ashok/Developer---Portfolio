@@ -9,6 +9,10 @@
     <title>My Developer Portfolio</title>
 </head>
 <body>
+    <section class="welcome-section">
+    <h2 id="welcomeMessage"></h2>
+    <p id="currentDate"></p>
+</section>
     <h1>Welcome to My Developer Portfolio</h1>
 
     <p>Hello! I am an aspiring developer learning Java,
@@ -52,8 +56,84 @@
                 <span>Git and GitHub</span>
             </div>
         </section>
+        <section class="skills-section">
+    <h2>My Skills</h2>
+
+    <button onclick="showSkills()">Show My Skills</button>
+
+    <p id="skillsMessage"></p>
+</section>
           <section id="projects" class="card">
             <h2>My Projects</h2>
+            <section id="projects" class="projects-section">
+
+    <h2>My Projects & Practice</h2>
+
+    <p class="section-description">
+        Here are some of the projects and programming exercises
+        I have worked on during my learning journey.
+    </p>
+
+    <div class="project-grid">
+
+        <!-- Java Sorting Practice -->
+        <div class="project-card">
+
+            <span class="project-tag">Java | DSA Practice</span>
+
+            <h3>Java Sorting Practice</h3>
+
+            <p>
+                Practised sorting algorithms using Java arrays
+                to understand how elements are arranged.
+            </p>
+
+            <ul>
+                <li>Bubble Sort</li>
+                <li>Selection Sort</li>
+                <li>Insertion Sort</li>
+                <li>Basic time complexity</li>
+            </ul>
+
+            <p class="project-tech">
+                <strong>Technologies:</strong> Java
+            </p>
+
+            <span class="project-status">Practice work</span>
+
+        </div>
+
+
+        <!-- Student Marks Analysis -->
+        <div class="project-card">
+
+            <span class="project-tag">Data Analysis</span>
+
+            <h3>Student Marks Analysis</h3>
+
+            <p>
+                Analysing student marks using Excel and Python
+                to understand data cleaning and basic statistics.
+            </p>
+
+            <ul>
+                <li>Data cleaning</li>
+                <li>Handling missing and incorrect values</li>
+                <li>Calculating totals and averages</li>
+                <li>Basic analysis using pandas</li>
+            </ul>
+
+            <p class="project-tech">
+                <strong>Technologies:</strong> Excel, Python, pandas
+            </p>
+
+            <span class="project-status">In progress</span>
+
+        </div>
+
+    </div>
+
+</section>
 
             <div class="project">
                 <h3>1. Student Marks Management System</h3>
@@ -94,29 +174,109 @@
         </ul>
     </section>
     
+    <section id="projects" class="card">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>1. Personal Portfolio Website</h3>
+        <p>
+            A personal website to introduce myself,
+            display my skills, education, and projects.
+        </p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="project">
+        <h3>2. Student Marks Analysis</h3>
+        <p>
+            Analysed student marks to calculate totals,
+            averages, and identify performance patterns.
+        </p>
+        <p><strong>Technologies:</strong> Excel, Python</p>
+    </div>
+
+    <div class="project">
+        <h3>3. Student Marks Management System</h3>
+        <p>
+            A beginner project for managing student marks
+            and calculating total and average scores.
+        </p>
+        <p><strong>Concepts:</strong> Programming, calculations, input/output</p>
+    </div>
+
+    <div class="project">
+        <h3>4. Public API Practice</h3>
+        <p>
+            A practice webpage that retrieves sample user
+            information from a public API and displays it.
+        </p>
+        <p><strong>Technologies:</strong> JavaScript, Fetch API, JSON</p>
+    </div>
+</section>
+    
 <section>
     <h2>Contact Me</h2>
+    <div class="github-profile">
+
+    <h3>Find me on GitHub</h3>
+
+    <p>
+        Explore my coding practice and projects.
+    </p>
+
+    <a
+        href="https://github.com/Namana-ashok"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="github-profile-link">
+
+        Visit My GitHub Profile
+
+    </a>
+
+</div>
     <p>Click the button to say hello!</p>
 
     <button id="helloButton">Say Hello</button>
 
     <p id="message"></p>
 </section>
+
+
+<!-- AI Portfolio Chatbot -->
+<div class="chatbot-container">
+
+    <button id="chatbotToggle" class="chatbot-toggle">
+        💬 Ask AI
+    </button>
+
+    <div id="chatbotWindow" class="chatbot-window hidden">
+
+        <div class="chatbot-header">
+            <h3>Portfolio Assistant</h3>
+            <button id="chatbotClose">×</button>
+        </div>
+
+       <div id="chatMessages" class="chatbot-messages">
+</div>
+
+<div class="chatbot-input">
+
+    <input
+        type="text"
+        id="chatInput"
+        placeholder="Ask me something..."
+    >
+
+    <button type="button" id="sendMessage">
+        Send
+    </button>
+
+</div>
+
+    </div>
+</div>
 <script src="script.js"></script>
-<section id="calculator">
-    <h2>Simple Calculator</h2>
-    <p>Enter two numbers to calculate their sum.</p>
-
-    <input type="number" id="num1" placeholder="First number">
-    <input type="number" id="num2" placeholder="Second number">
-
-    <button onclick="calculateSum()">Calculate Sum</button>
-
-    <p id="result">Result will appear here.</p>
-</section>
-
-
-
 
 </body>
 </html>
