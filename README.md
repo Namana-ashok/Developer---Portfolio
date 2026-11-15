@@ -1,67 +1,42 @@
-# Developer Portfolio
+# Personal Developer Portfolio
 
-## About the Project
+Welcome to my personal developer portfolio! This website introduces me, highlights my technical skills, showcases my projects, and shares my learning goals as an Information Science and Engineering student.
 
-My Developer Portfolio is a personal website developed as part of my learning journey in Computer Science and web development. It presents my education, technical skills, learning goals, and projects in a simple and organised format.
+## About Me
 
-I am currently developing my skills in Java programming, Data Structures and Algorithms, SQL, web development, and data analytics.
+I am a fifth-semester Information Science and Engineering student at Global Academy of Technology, Bengaluru, affiliated with Visvesvaraya Technological University (VTU), with an expected graduation year of 2028.
 
-## Features
+I am continuously learning and improving my programming, web development, problem-solving, and analytical skills through practical projects.
 
-- **About Me:** Introduction to my learning journey.
-- **Education:** Details about my academic background.
-- **Technical Skills:** Technologies and tools I am learning.
-- **Learning Goals:** My current learning objectives.
-- **Projects:** A section to showcase my practice and academic projects.
+## Portfolio Sections
+
+The portfolio includes the following sections:
+
+- **About Me** – A brief introduction and overview of my background.
+- **Education** – My academic details.
+- **Technical Skills** – Technologies and programming skills I am learning.
+- **Learning Goals** – My current learning objectives and career development goals.
+- **Projects** – A collection of my practical projects and development work.
+- **My Skills** – An overview of my developing technical abilities.
 
 ## Technologies Used
 
-- HTML — to structure the webpage.
-- CSS — to style the webpage and organise its layout.
-- JavaScript — to practise adding interactive features, if implemented.
+- HTML5 – Website structure
+- CSS3 – Styling and layout
+- JavaScript – Interactive functionality
 
 ## Project Structure
 
 ```text
-namana-portfolio/
+Developer---Portfolio/
+│
 ├── index.html
 ├── styles.css
 ├── script.js
 └── README.md
 ```
 
-*Note: Keep only the files that actually exist in your repository. Your CSS or JavaScript may currently be included inside `index.html`.*
-
 ## How to Run the Project
 
 1. Clone or download this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-4. Explore the portfolio sections.
-
-No additional installation is required for a basic static portfolio website.
-
-## What I Learned
-
-- Structuring web content using HTML.
-- Styling webpage elements using CSS.
-- Practising JavaScript fundamentals.
-- Organising project files.
-- Using Git and GitHub to store and manage code.
-
-## Future Improvements
-
-- Improve the website's responsive design for mobile devices.
-- Add more interactive features using JavaScript.
-- Include links to completed projects and their repositories.
-- Enhance the visual design and accessibility.
-
-## Author
-
-**Namana A**
-
-Information Science and Engineering Student  
-Global Academy of Technology  
-Affiliated with Visvesvaraya Technological University (VTU)
-
-GitHub: [Namana-ashok](https://github.com/Namana-ashok)
+2. Open the
